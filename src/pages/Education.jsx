@@ -2,8 +2,8 @@ export default function Education() {
     return (
         <div className="pt-24 pb-20 animate-fade-in" style={{ paddingTop: '6rem', paddingBottom: '5rem' }}>
             <div className="container">
-                <h1 className="text-4xl font-bold mb-6 text-center" style={{ fontSize: '2.5rem', marginBottom: '1.5rem', textAlign: 'center' }}>Professional Education</h1>
-                <p className="text-center text-gray-300 max-w-3xl mx-auto mb-16" style={{ textAlign: 'center', color: '#ccc', maxWidth: '800px', margin: '0 auto 4rem' }}>
+                <h1 className="text-4xl font-bold mb-6 text-center" style={{ fontSize: '2.5rem', marginBottom: '1.5rem', textAlign: 'center', color: '#000000' }}>Professional Education</h1>
+                <p className="text-center text-gray-700 max-w-3xl mx-auto mb-16" style={{ textAlign: 'center', color: '#000000', maxWidth: '800px', margin: '0 auto 4rem' }}>
                     Our programs combine academic excellence, industry relevance, and applied experiential learning.
                 </p>
 
