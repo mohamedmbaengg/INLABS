@@ -13,8 +13,8 @@ export default function Home() {
     return (
         <div className="prevent-overscroll">
             <Helmet>
-                <title>INLABS | Innovation & Education</title>
-                <meta name="description" content="Redefining Learning, Reporting and Capacity Building." />
+                <title>INLABS | Innovation, ESG & Gamification Consultancy UAE</title>
+                <meta name="description" content="Empowering UAE organizations with future-ready training, gamified simulations, and ESG reporting standards. Based in Sharjah Media City." />
             </Helmet>
 
             {/* Hero Section - Apple Style */}
