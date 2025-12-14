@@ -11,7 +11,7 @@ export default function Footer() {
                             IN<span className="text-gradient">LABS</span>
                         </h3>
                         <p className="text-gray-400" style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-                            Redefining Learning, Innovation & Sustainability Through Technology.
+                            Redefining Learning, Reporting and Capacity Building.
                         </p>
                     </div>
 

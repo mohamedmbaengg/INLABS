@@ -14,7 +14,7 @@ export default function Home() {
         <div className="prevent-overscroll">
             <Helmet>
                 <title>INLABS | Innovation & Education</title>
-                <meta name="description" content="Redefining Learning, Innovation & Sustainability." />
+                <meta name="description" content="Redefining Learning, Reporting and Capacity Building." />
             </Helmet>
 
             {/* Hero Section - Apple Style */}
