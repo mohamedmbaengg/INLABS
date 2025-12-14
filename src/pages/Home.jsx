@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
+import heroFlow from '../assets/hero-flow.png';
 
 export default function Home() {
     // Simple fade up animation
@@ -60,22 +61,22 @@ export default function Home() {
                             height: '500px',
                             borderRadius: '24px',
                             boxShadow: '0 20px 40px rgba(0,0,0,0.15)',
-                            background: '#000' // Fallback
+                            background: '#fff'
                         }}
                     >
                         <motion.img
-                            src="/images/hero-process.png"
-                            alt="Sustainability Future"
+                            src={heroFlow}
+                            alt="INLABS Process: Lab to Games to Reports to Courses"
                             initial={{ scale: 1 }}
                             animate={{ scale: 1.1 }}
                             transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
                             style={{
                                 width: '100%',
                                 height: '100%',
-                                objectFit: 'cover'
+                                objectFit: 'contain',
+                                padding: '20px'
                             }}
                         />
-                        <div className="absolute inset-0 bg-black/10"></div> {/* Subtle overlay */}
                     </div>
                 </div>
             </section>
