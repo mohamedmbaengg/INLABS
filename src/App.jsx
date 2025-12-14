@@ -15,7 +15,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="min-h-screen flex flex-col" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
           <Navbar />
           <main className="flex-grow" style={{ flexGrow: 1 }}>
