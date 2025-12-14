@@ -81,6 +81,29 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* TRUST SIGNALS - New Section */}
+            <section className="py-10 border-b border-gray-100" style={{ backgroundColor: '#fff', padding: '2.5rem 0', borderBottom: '1px solid #f0f0f0' }}>
+                <div className="container text-center">
+                    <p className="text-sm font-semibold text-gray-400 mb-6 uppercase tracking-wider">Trusted Ecosystem Partners</p>
+                    <div className="flex justify-center items-center gap-12 opacity-70 grayscale hover:grayscale-0 transition-all duration-500 flex-wrap" style={{ display: 'flex', justifyContent: 'center', gap: '3rem', flexWrap: 'wrap' }}>
+                        {/* Sharjah Media City Placeholder */}
+                        <div className="flex items-center gap-3" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                            <div style={{ width: '40px', height: '40px', background: '#000', borderRadius: '50%' }}></div>
+                            <span className="text-xl font-bold text-black" style={{ fontFamily: 'serif', fontSize: '1.25rem', fontWeight: 'bold' }}>Shams</span>
+                        </div>
+                        {/* Partner 2 */}
+                        <div className="flex items-center gap-3" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                            <span className="text-xl font-bold text-gray-800" style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#1f2937' }}>GOVERNMENT OF SHARJAH</span>
+                        </div>
+                        {/* Partner 3 */}
+                        <div className="flex items-center gap-3" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                            <div style={{ width: '30px', height: '30px', border: '2px solid #000' }}></div>
+                            <span className="text-xl font-semibold" style={{ fontSize: '1.25rem', fontWeight: '600' }}>Future Lab</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Grid Section for Offerings */}
             <section className="py-20 bg-white" style={{ padding: '4rem 0', background: '#fff' }}>
                 <div className="container">
