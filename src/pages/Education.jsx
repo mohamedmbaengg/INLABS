@@ -14,7 +14,7 @@ export default function Education() {
                     {/* Sustainability */}
                     <div className="glass-panel" style={{ padding: '2rem' }}>
                         <h3 className="text-2xl font-bold mb-4 text-accent-green" style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--accent-green)' }}>Sustainability</h3>
-                        <ul className="space-y-2 text-gray-300" style={{ listStyle: 'none', paddingLeft: '0' }}>
+                        <ul className="space-y-2 text-gray-700" style={{ listStyle: 'none', paddingLeft: '0' }}>
                             <li>• Diplomas in Sustainability (SCQF Level 11/12)</li>
                             <li>• Net Zero for Utilities & Circular Economy</li>
                             <li>• GRI, ISSB, IFRS-S1/S2, SASB frameworks</li>
@@ -25,7 +25,7 @@ export default function Education() {
                     {/* AI */}
                     <div className="glass-panel" style={{ padding: '2rem' }}>
                         <h3 className="text-2xl font-bold mb-4 text-primary-cyan" style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--primary-cyan)' }}>Artificial Intelligence</h3>
-                        <ul className="space-y-2 text-gray-300" style={{ listStyle: 'none', paddingLeft: '0' }}>
+                        <ul className="space-y-2 text-gray-700" style={{ listStyle: 'none', paddingLeft: '0' }}>
                             <li>• Applied Machine Learning</li>
                             <li>• GenAI Tools & Prompt Engineering</li>
                             <li>• AI for Business Transformation</li>
@@ -36,7 +36,7 @@ export default function Education() {
                     {/* Blockchain */}
                     <div className="glass-panel" style={{ padding: '2rem' }}>
                         <h3 className="text-2xl font-bold mb-4 text-secondary-purple" style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--secondary-purple)' }}>Blockchain</h3>
-                        <ul className="space-y-2 text-gray-300" style={{ listStyle: 'none', paddingLeft: '0' }}>
+                        <ul className="space-y-2 text-gray-700" style={{ listStyle: 'none', paddingLeft: '0' }}>
                             <li>• Enterprise Blockchain Foundations</li>
                             <li>• Smart Contracts</li>
                             <li>• Blockchain for ESG reporting & supply chain</li>
@@ -45,8 +45,8 @@ export default function Education() {
 
                     {/* IoT */}
                     <div className="glass-panel" style={{ padding: '2rem' }}>
-                        <h3 className="text-2xl font-bold mb-4 text-blue-400" style={{ fontSize: '1.5rem', marginBottom: '1rem', color: '#60a5fa' }}>Internet of Things (IoT)</h3>
-                        <ul className="space-y-2 text-gray-300" style={{ listStyle: 'none', paddingLeft: '0' }}>
+                        <h3 className="text-2xl font-bold mb-4" style={{ fontSize: '1.5rem', marginBottom: '1rem', color: '#000000' }}>Internet of Things (IoT)</h3>
+                        <ul className="space-y-2 text-gray-700" style={{ listStyle: 'none', paddingLeft: '0' }}>
                             <li>• IoT for Smart Cities</li>
                             <li>• Sensor-based optimisation</li>
                             <li>• Digital twins & Predictive maintenance</li>

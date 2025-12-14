@@ -3,7 +3,7 @@ export default function EmergingTech() {
         <div className="pt-24 pb-20 animate-fade-in" style={{ paddingTop: '6rem', paddingBottom: '5rem' }}>
             <div className="container">
                 <h1 className="text-4xl font-bold mb-6 text-center" style={{ fontSize: '2.5rem', marginBottom: '1.5rem', textAlign: 'center' }}>Emerging Technologies & Automation</h1>
-                <p className="text-center text-gray-300 max-w-3xl mx-auto mb-16" style={{ textAlign: 'center', color: '#ccc', maxWidth: '800px', margin: '0 auto 4rem' }}>
+                <p className="text-center text-gray-700 max-w-3xl mx-auto mb-16" style={{ textAlign: 'center', color: '#333', maxWidth: '800px', margin: '0 auto 4rem' }}>
                     INLABS turns innovation concepts into functional prototypes, supported by research and technical expertise.
                 </p>
 
@@ -57,7 +57,7 @@ export default function EmergingTech() {
 
                 <div className="mt-16 text-center glass-panel" style={{ marginTop: '4rem', padding: '2rem', textAlign: 'center' }}>
                     <h3 className="text-xl font-bold mb-2">Outcome</h3>
-                    <p className="text-gray-300">Organisations gain clear visibility of automation potential before committing to full-scale implementation.</p>
+                    <p className="text-gray-700">Organisations gain clear visibility of automation potential before committing to full-scale implementation.</p>
                 </div>
 
             </div>

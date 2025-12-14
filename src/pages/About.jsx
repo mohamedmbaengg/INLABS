@@ -7,7 +7,7 @@ export default function About() {
                 {/* Who We Are */}
                 <section className="mb-16 glass-panel" style={{ marginBottom: '4rem' }}>
                     <h2 className="text-2xl font-bold mb-4 text-primary-cyan" style={{ fontSize: '1.8rem', color: 'var(--primary-cyan)', marginBottom: '1rem' }}>Who We Are</h2>
-                    <p className="text-lg text-gray-300 leading-relaxed" style={{ fontSize: '1.1rem', color: '#ccc', lineHeight: '1.8' }}>
+                    <p className="text-lg text-gray-700 leading-relaxed" style={{ fontSize: '1.1rem', color: '#333', lineHeight: '1.8' }}>
                         INLABS is an innovation-driven educational and consulting organisation specialising in sustainability, digital transformation, and future technologies. We combine technical expertise, academic rigor, and industry insight to build solutions that lead organisations toward Net Zero, operational excellence, and intelligent automation.
                     </p>
                 </section>
