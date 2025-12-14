@@ -32,7 +32,7 @@ export default function Home() {
                         className="text-2xl md:text-4xl font-semibold mb-6 text-black"
                         style={{ fontSize: '1.5rem', fontWeight: '600', color: '#1d1d1f', marginBottom: '1.5rem' }}
                     >
-                        Redefining Learning.
+                        Redefining Learning, Reporting and Capacity Building.
                     </motion.h2>
 
                     <motion.p
